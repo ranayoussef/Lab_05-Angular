@@ -1,0 +1,44 @@
+<div class="d-flex justify-content-center">
+    <div class="bg-warning w-25 m-5 p-3" *ngIf="user">
+        <div class="mb-3 row">
+            <div class="col-2 me-2">
+                <label for="name" class="form-label">Name:</label>
+            </div>
+            <div class="col-8">
+                <p>{{user.name}}</p>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <div class="col-2 me-2">
+                <label for="age" class="form-label">Age:</label>
+            </div>
+            <div class="col-8">
+                <p>{{user.age}}</p>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <div class="col-2 me-2">
+                <label for="email" class="form-label">Email:</label>
+            </div>
+            <div class="col-8">
+                <p>{{user.email}}</p>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <div class="col-2 me-2">
+                <label for="address" class="form-label">Address:</label>
+            </div>
+            <div class="col-8">
+                <p>{{user.address}}</p>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <div class="col-2 me-2">
+                <label for="phone" class="form-label">Phone:</label>
+            </div>
+            <div class="col-8">
+                <p>{{user.phone}}</p>
+            </div>
+        </div>
+    </div>
+</div>

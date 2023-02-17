@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Rana",
+      "age": 25,
+      "address": "27AhmedFathyST.Gleem",
+      "phone": 123456789,
+      "email": "rana@gmail.com"
+    },
+    {
+      "id": 1,
+      "name": "Haidy",
+      "age": 25,
+      "address": "27AhmedFathyST.Gleem",
+      "phone": 123456789,
+      "email": "haidy@gmail.com"
+    },
+    {
+      "id": 1,
+      "name": "Hesham",
+      "age": 25,
+      "address": "27AhmedFathyST.Gleem",
+      "phone": 123456789,
+      "email": "hesham@gmail.com"
+    },
+    {
+      "id": 1,
+      "name": "Karim",
+      "age": 25,
+      "address": "27AhmedFathyST.Gleem",
+      "phone": 123456789,
+      "email": "karim@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<div class="d-flex justify-content-center" *ngIf="user">
+    <form [formGroup]="userForm" class="w-50 m-3">
+        <div class="mb-3 row">
+            <div class="col-2">
+                <label for="name" class="form-label">Name</label>
+            </div>
+            <div class="col-8">
+                <input type="text" class="form-control" id="name" fdprocessedid="k63lp" formControlName="name" value="{{user.name}}" />
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <div class="col-2">
+                <label for="age" class="form-label">Age</label>
+            </div>
+            <div class="col-8">
+                <input type="number" class="form-control" id="number" fdprocessedid="k63lp" formControlName="age" value="{{user.age}}"/>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <div class="col-2">
+                <label for="email" class="form-label">Email</label>
+            </div>
+            <div class="col-8">
+                <input type="email" class="form-control" id="email" fdprocessedid="k63lp" formControlName="email" value="{{user.email}}"/>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <div class="col-2">
+                <label for="address" class="form-label">Address</label>
+            </div>
+            <div class="col-8">
+                <input type="text" class="form-control" id="address" fdprocessedid="k63lp" formControlName="address" value="{{user.address}}"/>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <div class="col-2">
+                <label for="phone" class="form-label">Phone</label>
+            </div>
+            <div class="col-8">
+                <input type="text" class="form-control" id="phone" fdprocessedid="k63lp" formControlName="phone" value="{{user.phone}}"/>
+            </div>
+        </div>
+        <div class="mb-3 row justify-content-center">
+            <button class="btn btn-warning text-light w-25" fdprocessedid="2uabl" (click)="submit()">
+                Submit
+            </button>
+        </div>
+    </form>
+</div>
